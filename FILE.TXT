@@ -1,0 +1,23 @@
+AFVM.VFS file format
+
+AVFM			/* magic line !*/
+version number		/* should be file system version but is prog  version! */
+Number of records
+REPEAT BLOCK
+	parent;			/* 0 if root level */
+	unique_no;
+	path length
+	char *path;				/* exec/doc path or NULL if directory */
+	display text length
+	char *display_text;
+	int	args_type;		/* 0 - none, 1 - ask, 2 - below */
+	args length
+	char *args;				/* also document comment */
+	working dir length
+	char *working_dir;	/* also package path or name! */
+	char execute_by;		/* 'D' for document! 'M' for Multitask, 'H' for Hog, 'E' for exit */
+	long date_created;
+	long current_version;
+	long date_last_edit;
+	long program_unique_no;
+REPEAT BLOCK END

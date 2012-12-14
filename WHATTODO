@@ -1,0 +1,13 @@
+Install lattice.
+Split the prog into little bits.
+Set up a project in lattice 5.6
+get it working
+move from arrays to linked lists.
+Stick all strings in the resource file (as far as poss)
+fix window handling
+add different text sizes
+fix comments bug
+check out dulib
+add directory handling stuff [C:\]
+fix create boxes so that FS provides the path as well (sticks you in the right place)
+add floppy user handlng stuff

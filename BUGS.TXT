@@ -1,0 +1,54 @@
+Bugs
+====
+
+There's bound to be some. I have tried to get rid of most of them but
+I'm such a nice user I never put the program against the wall and
+whip it until it pleads for mercy.
+
+If you find a bug then please report it to
+
+mr_richardson@cix.compulink.co.uk
+
+
+Known Bugs:
+===========
+
+version 1.1
+-----------
+In the AVFM.VFS file, the version number used is the program version
+number and not the file system version number. Let's just call that a
+feature for now and hope no-one notices (oops)
+
+The text in the comments and args box is concatenated and not
+properly spread across the 3 lines (try writing on two lines and you
+will see what I mean). This isn't really a bug, I just haven't
+written that routine yet. I will do, and probably soon, but it may
+not reach this version. You could always space the lines out if you
+needed to! (sorry for the inconvenience)
+
+With let 'em fly some of the dialogues are left behind :[
+
+With Mag!X some of the screen re-draws are a bit dodgy.
+
+The drawing of the text in the window isn't calculated as well as it
+could be, sometimes the last item isn't shown on screen fully but you
+can't scroll to view it. (if this happens then try re-sizing the
+window, sorry but I'll fix it soon)
+
+
+
+Fixed Bugs:
+===========
+
+version 1.1 
+-----------
+In medium res the window went off the screen, not sure
+why, but I added checks to make sure that the default window size
+wasn't more than the size of the screen (if it is then it uses the
+screen size instead).
+
+Cut and paste now works with documents properly (Thanx Denesh)
+
+
+
+

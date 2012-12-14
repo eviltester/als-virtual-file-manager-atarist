@@ -1,20 +1,3 @@
-als-virtual-file-manager-atarist
-================================
-
-Al's Virtual File Manager for the Atari ST
-
-Back in 1995 I wrote a Virtual File Manager/Program Launcher for the Atari ST
-
-And this is it.
-
-while getting this ready for release I looked online for any references
-
-I can see that in August of 1995 it made the cover disk of Atari World Issue 4
-
-http://www.zhell.co.uk/atriwrld.html
-
-Original release me below:
-
 Instructions for Feedbackware version 1.1 of AVFM:
 
 SPECIAL ATARI WORLD EDITION: Has the cut & paste bugs fixed and code
@@ -355,6 +338,26 @@ while.
 Everyone who provided feedback on my Guitar Reference Program. The
 current version is down to you guys, and personal laziness. :]  
  
+
+I think thats it.
+-----------------
+
+Any feedback to...
+
+mr_richardson@cix.compulink.co.uk 
+
+or
+
+Alan Richardson
+55 Alderbrook Road
+Clapham South
+London
+SW12 8AD
+
+
+Thanks,
+
+Alan Richardson
 
 
 
